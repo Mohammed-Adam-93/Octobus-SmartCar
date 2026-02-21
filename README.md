@@ -7,3 +7,9 @@
 
 # HardWare LayOut
 ![Octobus_The_SmartCar](HW_LayOut.png)
+
+# Goals
+- Develop a modular ROS2-based autonomous platform
+- Implement multi-sensor fusion (LiDAR + IMU + GPS + Encoders)
+- Design scalable software architecture
+- Enable reproducible hardware-software integration
