@@ -13,3 +13,13 @@
 - Implement multi-sensor fusion (LiDAR + IMU + GPS)
 - Design scalable software architecture
 - Enable reproducible hardware-software integration
+
+# Installations
+1. Install Ubuntu 22.04
+2. Install ROS2 Humble
+3. Clone repository:
+   git clone ...
+4. Build workspace:
+   colcon build
+5. Source:
+   source install/setup.bash
