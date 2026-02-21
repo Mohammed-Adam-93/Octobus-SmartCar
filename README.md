@@ -10,6 +10,6 @@
 
 # Goals
 - Develop a modular ROS2-based autonomous platform
-- Implement multi-sensor fusion (LiDAR + IMU + GPS + Encoders)
+- Implement multi-sensor fusion (LiDAR + IMU + GPS)
 - Design scalable software architecture
 - Enable reproducible hardware-software integration
