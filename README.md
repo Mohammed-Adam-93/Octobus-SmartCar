@@ -3,3 +3,4 @@
 ![Octobus_The_SmartCar](SmartCar_3.jpeg)
 
 # System Architecture
+![Octobus_The_SmartCar](SystemArch_1.png)
