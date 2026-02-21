@@ -14,6 +14,20 @@
 - Design scalable software architecture
 - Enable reproducible hardware-software integration
 
+# Current Capabilities
+- Motor control via Arduino + ROS2 interface
+- Encoder-based velocity estimation
+- LiDAR integration (YDLIDAR Tmini Plus)
+- IMU data publishing
+- GPS integration
+- Basic obstacle detection
+
+# In Progress
+- Sensor fusion (EKF)
+- Robust obstacle avoidance logic
+- Nav2 integration
+- Autonomous waypoint navigation
+  
 # Installations
 1. Install Ubuntu 22.04
 2. Install ROS2 Humble
