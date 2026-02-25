@@ -9,21 +9,19 @@
 ![Octobus_The_SmartCar](HW_LayOut.png)
 
 # Goals
-- Develop a modular ROS2-based autonomous platform
-- Implement multi-sensor fusion (LiDAR + IMU + GPS)
-- Design scalable software architecture
-- Enable reproducible hardware-software integration
+- Develop a ROS2-based autonomous platform
+- Multi-sensor fusion (LiDAR + IMU + GPS)
+- Design software architecture
+- Reproducible hardware-software integration
 
 # Current Capabilities
 - Motor control via Arduino + ROS2 interface
 - Encoder-based velocity estimation
-- LiDAR integration (YDLIDAR Tmini Plus)
-- IMU data publishing
-- GPS integration
+- Integration IMU, LiDAR, GPS
 - Basic obstacle detection
 
 # In Progress
-- Sensor fusion (EKF)
+- Sensor fusion
 - Robust obstacle avoidance logic
 - Nav2 integration
 - Autonomous waypoint navigation
