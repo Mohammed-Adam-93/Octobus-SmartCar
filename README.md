@@ -25,7 +25,8 @@
 - Robust obstacle avoidance logic
 - Nav2 integration
 - Autonomous waypoint navigation
-  
+# BOM
+[BOM SmartCar.csv](hardware/bom/BOM SmartCar.csv)
 # Installations
 1. Install Ubuntu 22.04
 2. Install ROS2 Humble
