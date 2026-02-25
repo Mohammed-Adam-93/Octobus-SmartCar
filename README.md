@@ -5,7 +5,7 @@
 # System Architecture
 ![Octobus_The_SmartCar](SystemArch_1.png)
 
-# HardWare LayOut
+# Hardware Layout
 ![Octobus_The_SmartCar](HW_LayOut.png)
 
 # Goals
