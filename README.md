@@ -8,6 +8,9 @@
 # Hardware Layout
 ![Octobus_The_SmartCar](HW_LayOut.png)
 
+# System Schematic
+
+
 # Goals
 - Develop a ROS2-based autonomous platform
 - Multi-sensor fusion (LiDAR + IMU + GPS)
