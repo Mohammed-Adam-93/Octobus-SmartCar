@@ -51,3 +51,6 @@ Simple table:
 | 11  | Battery           | 3000mah           |   1  |      19,99   |    19,99 |
 |     |  Total            |                   |      |              |    329,72|
 
+# Wiring Diagram
+For detailed wiring digrams, refer to /hardwar/Wiring Diagrams
+![Octobus_The_SmartCar](/hardware/Wiring Diagrams/WiringDiagram2.png)
