@@ -53,4 +53,4 @@ Simple table:
 
 # Wiring Diagram
 For detailed wiring digrams, refer to /hardwar/Wiring Diagrams
-![Octobus_The_SmartCar](/hardware/Wiring Diagrams/WiringDiagram2.png)
+![](hardware/Wiring Diagrams/WiringDiagram2.png)
