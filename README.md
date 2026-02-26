@@ -45,5 +45,5 @@ Simple table:
 |  9  | Rasberry Pi   | 4B 8G         |   1  |      116     |    116   |
 | 10  | Rasberry Pi   | 4B 8G         |   1  |      116     |    116   |
 | 11  | Rasberry Pi   | 4B 8G         |   1  |      116     |    116   |
-|                               Total                        |          |
+|                              Total                        |          |
 
