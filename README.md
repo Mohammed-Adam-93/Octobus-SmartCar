@@ -32,7 +32,6 @@
 2. Install ROS2 Humble
 
 Simple table:
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| NO. | Component     | Model         | QTY  | Unit Cost(€) | Total(€) |
+| --- | ------------- | ------------- | ---- | ------------ | -------- |
+
