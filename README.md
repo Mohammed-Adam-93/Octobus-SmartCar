@@ -45,5 +45,5 @@ Simple table:
 |  9  | Platform Structure| 4WD Smart Car     |   1  |      14,99   |    14,99 |
 | 10  | Power Bank        | 30000mah          |   1  |      35      |    35    |
 | 11  | Battery           | 3000mah           |   1  |      19,99   |    19,99 |
-|                              Total                                |    329,72|
+|     |  Total            |                   |      |              |    329,72|
 
