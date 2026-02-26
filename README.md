@@ -9,7 +9,7 @@
 ![Octobus_The_SmartCar](HW_LayOut.png)
 
 # System Schematic
-![Octobus_The_SmartCar](SmartCar_Schematic.png)
+![Octobus_The_SmartCar](SmartCarSchematic.png)
 
 # Goals
 - Develop a ROS2-based autonomous platform
