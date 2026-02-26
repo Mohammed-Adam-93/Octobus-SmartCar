@@ -32,14 +32,7 @@
 2. Install ROS2 Humble
 
 Simple table:
-
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
-False  False  False
-True   False  True
-False  True   True
-True   True   True
-=====  =====  ======
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
