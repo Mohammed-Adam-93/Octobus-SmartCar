@@ -2,6 +2,15 @@
 
 ![Octobus_The_SmartCar](SmartCar_3.jpeg)
 
+# System Architecture
+![Octobus_The_SmartCar](SystemArch_1.png)
+
+# Hardware Layout
+![Octobus_The_SmartCar](HW_LayOut.png)
+
+# System Schematic
+![Octobus_The_SmartCar](SmartCarSchematic.png)
+
 # Goals
 - Develop a ROS2-based autonomous platform
 - Multi-sensor fusion (LiDAR + IMU + GPS)
@@ -19,16 +28,6 @@
 - Robust obstacle avoidance logic
 - Nav2 integration
 - Autonomous waypoint navigation
-
-# System Architecture
-![Octobus_The_SmartCar](SystemArch_1.png)
-
-# System Schematic
-![Octobus_The_SmartCar](SmartCarSchematic.png)
-
-# Hardware Layout
-![Octobus_The_SmartCar](HW_LayOut.png)
-
 
 # BOM
 Simple table:
