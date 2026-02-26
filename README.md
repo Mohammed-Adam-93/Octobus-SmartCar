@@ -29,11 +29,6 @@
 - Nav2 integration
 - Autonomous waypoint navigation
 
-
-# Installations
-1. Install Ubuntu 22.04
-2. Install ROS2 Humble
-
 # BOM
 Simple table:
 | NO. | Component         | Model             | QTY  | Unit Cost(€) | Total(€) |
@@ -54,3 +49,7 @@ Simple table:
 # Wiring Diagram
 For detailed wiring digrams, refer to /hardwar/Wiring Diagrams
 ![Octobus_The_SmartCar](WiringDiagram2.png)
+
+# Installations
+1. Install Ubuntu 22.04
+2. Install ROS2 Humble
