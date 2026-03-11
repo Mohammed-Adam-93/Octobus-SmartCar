@@ -1,0 +1,7 @@
+[console_scripts]
+GPS_sub_node = SmartCar_pkg.GPS_sub:main
+LIDAR_sub_node = SmartCar_pkg.LIDAR_sub:main
+MPU_pub_node = SmartCar_pkg.MPU_pub:main
+Pi_Ard_pub_node = SmartCar_pkg.Pi_Ard_pub:main
+Pi_Ard_sub_node = SmartCar_pkg.Pi_Ard_sub:main
+
