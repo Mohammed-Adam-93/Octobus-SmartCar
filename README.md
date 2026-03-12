@@ -16,9 +16,9 @@
 - Autonomous path planning and navigation<br>
 
 # Current Status
-    - Successful integeration of the system components<br>  
-    - Mobility via ROS2 Nodes, e.g forward, backward, right or left<br>  
-    - Autonomous Obsatcle detection and avoidance<br>  
+- Successful integeration of the system components<br>  
+- Mobility via ROS2 Nodes, e.g forward, backward, right or left<br>  
+- Autonomous Obsatcle detection and avoidance<br>  
 
 # Wiring Diagram
 ![ Wiring Diagram ](documents/Images/WiringDiagram.png)
