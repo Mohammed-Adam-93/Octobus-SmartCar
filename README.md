@@ -20,6 +20,9 @@
 - Mobility via ROS2 Nodes, e.g forward, backward, right or left<br>  
 - Autonomous Obsatcle detection and avoidance<br>  
 
+# Integeration Test Demo
+https://github.com/user-attachments/assets/1bf3dcbe-58a1-4a5d-b76c-9af76d147cb6
+
 # Wiring Diagram
 ![ Wiring Diagram ](documents/Images/WiringDiagram.png)
 
