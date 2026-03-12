@@ -1,0 +1,130 @@
+[1.256s] Invoking command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver
+[1.608s] -- The C compiler identification is GNU 11.4.0
+[1.930s] -- The CXX compiler identification is GNU 11.4.0
+[1.981s] -- Detecting C compiler ABI info
+[2.397s] -- Detecting C compiler ABI info - done
+[2.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.431s] -- Detecting C compile features
+[2.432s] -- Detecting C compile features - done
+[2.445s] -- Detecting CXX compiler ABI info
+[2.974s] -- Detecting CXX compiler ABI info - done
+[3.027s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.029s] -- Detecting CXX compile features
+[3.034s] -- Detecting CXX compile features - done
+[3.083s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.564s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.864s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.977s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.226s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.066s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.153s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.824s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.739s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.857s] -- Looking for pthread.h
+[13.946s] -- Looking for pthread.h - found
+[13.951s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.955s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.956s] -- Found Threads: TRUE  
+[16.183s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[16.735s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[16.926s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[17.186s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.444s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.587s] -- Configured cppcheck include dirs: /home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src
+[18.589s] -- Configured cppcheck exclude dirs and/or files: 
+[18.740s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.741s] -- Configured cpplint exclude dirs and/or files: 
+[18.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.796s] -- Added test 'lint_cmake' to check CMake code style
+[18.825s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.914s] -- Added test 'uncrustify' to check C / C++ code style
+[18.916s] -- Configured uncrustify additional arguments: 
+[18.940s] -- Added test 'xmllint' to check XML markup files
+[18.996s] -- Configuring done
+[19.290s] -- Generating done
+[19.364s] -- Build files have been written to: /home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver
+[19.536s] Invoked command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver
+[19.541s] Invoking command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[19.840s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[20.038s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[42.187s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[42.188s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.189s]   191 | &laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[42.190s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[42.190s] 
+[42.192s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.193s]   192 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[42.194s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[42.195s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.196s]   193 | [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[42.197s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[42.198s] 
+[42.298s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[42.301s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.302s]   201 | &laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[42.303s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[42.304s] 
+[42.306s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.307s]   202 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[42.308s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[42.310s] [01m[K/home/mohammed/SmartCar/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.311s]   203 | [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[42.313s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[42.316s] 
+[66.049s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[68.083s] [ 75%] Built target ydlidar_ros2_driver_node
+[77.387s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[79.385s] [100%] Built target ydlidar_ros2_driver_client
+[79.426s] Invoked command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[79.435s] Invoking command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver
+[79.463s] -- Install configuration: ""
+[79.464s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[79.483s] -- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+[79.484s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[79.511s] -- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+[79.512s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[79.512s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[79.514s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[79.515s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[79.516s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[79.517s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[79.518s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[79.519s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[79.520s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[79.521s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[79.522s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[79.523s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[79.524s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[79.525s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[79.526s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[79.527s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[79.528s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[79.529s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[79.530s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[79.531s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[79.532s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[79.533s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[79.534s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[79.535s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[79.535s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[79.537s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[79.539s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[79.541s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[79.542s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[79.543s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[79.544s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[79.546s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[79.547s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[79.548s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[79.549s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[79.551s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[79.552s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[79.554s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[79.555s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[79.557s] -- Installing: /home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[79.564s] Invoked command in '/home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mohammed/SmartCar/ros2_ws/build/ydlidar_ros2_driver
