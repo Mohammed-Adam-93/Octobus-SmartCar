@@ -8,17 +8,17 @@
 ![Power Supply and Coonections](documents/Images/SmartCarSchematic.png)
 
 # Goals
--Design of ROS2 Autonomous Mobile System that could be:  
-    -Reproduced and scaled  
-    -Developed  
--Sensor Integgeration( LiDAR, Imu, GPS)  
--Obstacle detection and avoidance  
--Autonomous path planning and navigation
+- Design of ROS2 Autonomous Mobile System that could be:<br>  
+    - Reproduced and scaled<br> 
+    - Developed<br>  
+- Sensor Integgeration( LiDAR, Imu, GPS)<br>  
+- Obstacle detection and avoidance<br>  
+- Autonomous path planning and navigation<br>
 
 # Current Status
--Successful integeration of the system components  
--Mobility via ROS2 Nodes, e.g forward, backward, right or left  
--Autonomous Obsatcle detection and avoidance  
+    - Successful integeration of the system components<br>  
+    - Mobility via ROS2 Nodes, e.g forward, backward, right or left<br>  
+    - Autonomous Obsatcle detection and avoidance<br>  
 
 # Wiring Diagram
 ![ Wiring Diagram ](documents/Images/WiringDiagram.png)
@@ -40,5 +40,5 @@
 |     |                   |                    |     |    Toatal    | 329,72 |
 
 # Installations
--Ubuntu 22.04  
--ROS2 Humble
+ - Ubuntu 22.04<br>  
+ - ROS2 Humble<br>
