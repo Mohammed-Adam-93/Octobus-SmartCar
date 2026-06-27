@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/move_intent__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/move_intent__type_support.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/object_distance__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/object_distance__type_support.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/sensor_index__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/sensor_index__type_support.cpp.o.d"
+  "liboctopus_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "liboctopus_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/move_intent__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/object_distance__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/sensor_index__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,6 @@
+msg/MoveIntent.idl
+msg/MoveIntent.msg
+msg/ObjectDistance.idl
+msg/ObjectDistance.msg
+msg/SensorIndex.idl
+msg/SensorIndex.msg

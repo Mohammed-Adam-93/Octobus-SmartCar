@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-24f538e22aec4476e14e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "octopus_interfaces__py",
+					"jsonFile" : "directory-octopus_interfaces__py-812d72d5da6051dae3de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces/octopus_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "octopus_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_octopus_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_octopus_interfaces_egg-0278d29a0469aaecc823.json",
+					"name" : "ament_cmake_python_build_octopus_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_octopus_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_octopus_interfaces-96f2b8e8d9e2bbaeeaab.json",
+					"name" : "ament_cmake_python_copy_octopus_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces-0a58c445bca1361878dc.json",
+					"name" : "octopus_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__cpp-36d4059e57254b91f487.json",
+					"name" : "octopus_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "octopus_interfaces__py::@f477cd78c0dd1f15413a",
+					"jsonFile" : "target-octopus_interfaces__py-fae3081f19125b67b390.json",
+					"name" : "octopus_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_generator_c-3e40a0c31fa1b15e0e6e.json",
+					"name" : "octopus_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_generator_py-4bc74762531923625ee7.json",
+					"name" : "octopus_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_c-2decae36062276a8329f.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_c__pyext-28da61cb4d145b8e8d4d.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_cpp-84a8227c288632af0fb3.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_fastrtps_c-ce5c570aec85dc6e9900.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext-3eef78c6827392ef1103.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_fastrtps_cpp-fdb723c6542c7bfe4ad9.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_introspection_c-3ba110778be871d1fccc.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_introspection_c__pyext-42f429bbb57efbe9dae0.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces__rosidl_typesupport_introspection_cpp-42ffda6c16479edeeb28.json",
+					"name" : "octopus_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octopus_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octopus_interfaces_uninstall-f18c20f6923ffa0eedee.json",
+					"name" : "octopus_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-50d66d80ada0ad029e90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces",
+		"source" : "/home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

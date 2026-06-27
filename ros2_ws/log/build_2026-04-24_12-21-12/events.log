@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.001213] (-) JobUnselected: {'identifier': 'octopus_interfaces'}
+[0.001521] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001739] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.001892] (SmartCar_pkg) JobQueued: {'identifier': 'SmartCar_pkg', 'dependencies': OrderedDict([('octopus_interfaces', '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces')])}
+[0.002074] (SmartCar_pkg) JobStarted: {'identifier': 'SmartCar_pkg'}
+[0.085256] (-) TimerEvent: {}
+[0.186081] (-) TimerEvent: {}
+[0.286999] (-) TimerEvent: {}
+[0.387880] (-) TimerEvent: {}
+[0.488778] (-) TimerEvent: {}
+[0.589662] (-) TimerEvent: {}
+[0.690463] (-) TimerEvent: {}
+[0.791325] (-) TimerEvent: {}
+[0.892245] (-) TimerEvent: {}
+[0.993102] (-) TimerEvent: {}
+[1.093940] (-) TimerEvent: {}
+[1.194799] (-) TimerEvent: {}
+[1.296163] (-) TimerEvent: {}
+[1.397241] (-) TimerEvent: {}
+[1.498032] (-) TimerEvent: {}
+[1.599848] (-) TimerEvent: {}
+[1.704945] (-) TimerEvent: {}
+[1.805726] (-) TimerEvent: {}
+[1.908803] (-) TimerEvent: {}
+[2.009620] (-) TimerEvent: {}
+[2.110481] (-) TimerEvent: {}
+[2.212209] (-) TimerEvent: {}
+[2.313072] (-) TimerEvent: {}
+[2.413865] (-) TimerEvent: {}
+[2.515271] (-) TimerEvent: {}
+[2.616953] (-) TimerEvent: {}
+[2.717993] (-) TimerEvent: {}
+[2.818887] (-) TimerEvent: {}
+[2.919771] (-) TimerEvent: {}
+[3.020575] (-) TimerEvent: {}
+[3.121609] (-) TimerEvent: {}
+[3.222569] (-) TimerEvent: {}
+[3.323784] (-) TimerEvent: {}
+[3.424682] (-) TimerEvent: {}
+[3.525487] (-) TimerEvent: {}
+[3.626363] (-) TimerEvent: {}
+[3.727176] (-) TimerEvent: {}
+[3.827981] (-) TimerEvent: {}
+[3.929115] (-) TimerEvent: {}
+[4.030346] (-) TimerEvent: {}
+[4.131176] (-) TimerEvent: {}
+[4.232087] (-) TimerEvent: {}
+[4.332931] (-) TimerEvent: {}
+[4.433904] (-) TimerEvent: {}
+[4.534808] (-) TimerEvent: {}
+[4.635710] (-) TimerEvent: {}
+[4.736596] (-) TimerEvent: {}
+[4.837463] (-) TimerEvent: {}
+[4.938329] (-) TimerEvent: {}
+[5.040258] (-) TimerEvent: {}
+[5.143793] (-) TimerEvent: {}
+[5.246432] (-) TimerEvent: {}
+[5.350534] (-) TimerEvent: {}
+[5.386613] (SmartCar_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/SmartCar_pkg', 'build', '--build-base', '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build', 'install', '--record', '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammed/SmartCar/ros2_ws/src/SmartCar_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohammed', 'SSH_CLIENT': '192.168.0.100 51219 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mohammed/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/mohammed/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mohammed', 'OLDPWD': '/home/mohammed/SmartCar/ros2_ws', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cb94f438-4f6a-4a70-9cf9-6ac7d4254710.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mohammed/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/mohammed/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/mohammed/SmartCar/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohammed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk/bin:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mohammed/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b384091b77ee7865.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/mohammed/.vscode-server/data/User/workspaceStorage/c4403cea4e4f24dd25111c2206b5361a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d7acbbd498.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 51219 192.168.0.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver'}, 'shell': False}
+[5.450775] (-) TimerEvent: {}
+[5.552322] (-) TimerEvent: {}
+[5.653226] (-) TimerEvent: {}
+[5.754079] (-) TimerEvent: {}
+[5.857798] (-) TimerEvent: {}
+[5.958943] (-) TimerEvent: {}
+[6.059801] (-) TimerEvent: {}
+[6.160585] (-) TimerEvent: {}
+[6.261388] (-) TimerEvent: {}
+[6.362359] (-) TimerEvent: {}
+[6.463407] (-) TimerEvent: {}
+[6.564294] (-) TimerEvent: {}
+[6.665554] (-) TimerEvent: {}
+[6.770439] (-) TimerEvent: {}
+[6.871839] (-) TimerEvent: {}
+[6.972602] (-) TimerEvent: {}
+[7.073448] (-) TimerEvent: {}
+[7.176633] (-) TimerEvent: {}
+[7.277338] (-) TimerEvent: {}
+[7.378253] (-) TimerEvent: {}
+[7.479110] (-) TimerEvent: {}
+[7.577926] (SmartCar_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.579478] (-) TimerEvent: {}
+[7.584317] (SmartCar_pkg) StdoutLine: {'line': b'writing ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/PKG-INFO\n'}
+[7.586799] (SmartCar_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/dependency_links.txt\n'}
+[7.590546] (SmartCar_pkg) StdoutLine: {'line': b'writing entry points to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/entry_points.txt\n'}
+[7.592477] (SmartCar_pkg) StdoutLine: {'line': b'writing requirements to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/requires.txt\n'}
+[7.596299] (SmartCar_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/top_level.txt\n'}
+[7.607957] (SmartCar_pkg) StdoutLine: {'line': b"reading manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'\n"}
+[7.615869] (SmartCar_pkg) StdoutLine: {'line': b"writing manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'\n"}
+[7.618254] (SmartCar_pkg) StdoutLine: {'line': b'running build\n'}
+[7.618874] (SmartCar_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.621696] (SmartCar_pkg) StdoutLine: {'line': b'copying SmartCar_pkg/2_executor.py -> /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build/lib/SmartCar_pkg\n'}
+[7.625230] (SmartCar_pkg) StdoutLine: {'line': b'running install\n'}
+[7.627557] (SmartCar_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.639001] (SmartCar_pkg) StdoutLine: {'line': b'copying /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build/lib/SmartCar_pkg/2_executor.py -> /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg\n'}
+[7.645147] (SmartCar_pkg) StdoutLine: {'line': b'byte-compiling /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg/2_executor.py to 2_executor.cpython-310.pyc\n'}
+[7.651437] (SmartCar_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.654253] (SmartCar_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.668984] (SmartCar_pkg) StdoutLine: {'line': b"removing '/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.672712] (SmartCar_pkg) StdoutLine: {'line': b'Copying ../../build/SmartCar_pkg/SmartCar_pkg.egg-info to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info\n'}
+[7.679713] (-) TimerEvent: {}
+[7.682081] (SmartCar_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.781896] (-) TimerEvent: {}
+[7.805046] (SmartCar_pkg) StdoutLine: {'line': b'Installing GPS_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.806558] (SmartCar_pkg) StdoutLine: {'line': b'Installing LIDAR_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.808494] (SmartCar_pkg) StdoutLine: {'line': b'Installing MPU_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.809751] (SmartCar_pkg) StdoutLine: {'line': b'Installing Pi_Ard_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.813606] (SmartCar_pkg) StdoutLine: {'line': b'Installing Pi_Ard_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.817010] (SmartCar_pkg) StdoutLine: {'line': b'Installing behavior_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.821824] (SmartCar_pkg) StdoutLine: {'line': b'Installing evaluator_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.823761] (SmartCar_pkg) StdoutLine: {'line': b'Installing executor_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.824700] (SmartCar_pkg) StdoutLine: {'line': b'Installing sensor_processing_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.825385] (SmartCar_pkg) StdoutLine: {'line': b'Installing supervisor_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg\n'}
+[7.826420] (SmartCar_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log'\n"}
+[7.890440] (-) TimerEvent: {}
+[7.991784] (-) TimerEvent: {}
+[8.017956] (SmartCar_pkg) CommandEnded: {'returncode': 0}
+[8.092155] (-) TimerEvent: {}
+[8.096370] (SmartCar_pkg) JobEnded: {'identifier': 'SmartCar_pkg', 'rc': 0}
+[8.102430] (-) EventReactorShutdown: {}

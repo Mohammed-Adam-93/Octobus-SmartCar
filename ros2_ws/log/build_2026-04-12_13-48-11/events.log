@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.001759] (-) JobUnselected: {'identifier': 'SmartCar_pkg'}
+[0.002323] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.002816] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.003013] (octopus_interfaces) JobQueued: {'identifier': 'octopus_interfaces', 'dependencies': OrderedDict()}
+[0.003294] (octopus_interfaces) JobStarted: {'identifier': 'octopus_interfaces'}
+[0.039484] (octopus_interfaces) JobProgress: {'identifier': 'octopus_interfaces', 'progress': 'cmake'}
+[0.042218] (octopus_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces'], 'cwd': '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('SSH_CLIENT', '192.168.0.100 60222 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/SmartCar/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d4b0bc76-98a6-4157-8994-2279bf1f31c0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b384091b77ee7865.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/mohammed/.vscode-server/data/User/workspaceStorage/c4403cea4e4f24dd25111c2206b5361a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d7acbbd498.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 60222 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099176] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300965] (-) TimerEvent: {}
+[0.401943] (-) TimerEvent: {}
+[0.502850] (-) TimerEvent: {}
+[0.603929] (-) TimerEvent: {}
+[0.704983] (-) TimerEvent: {}
+[0.805885] (-) TimerEvent: {}
+[0.906725] (-) TimerEvent: {}
+[0.930396] (octopus_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.006932] (-) TimerEvent: {}
+[1.107735] (-) TimerEvent: {}
+[1.208810] (-) TimerEvent: {}
+[1.310210] (-) TimerEvent: {}
+[1.411308] (-) TimerEvent: {}
+[1.512392] (-) TimerEvent: {}
+[1.613367] (-) TimerEvent: {}
+[1.665505] (octopus_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.713520] (-) TimerEvent: {}
+[1.722354] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.813752] (-) TimerEvent: {}
+[1.914555] (-) TimerEvent: {}
+[2.015276] (-) TimerEvent: {}
+[2.103900] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.115464] (-) TimerEvent: {}
+[2.130704] (octopus_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.132449] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.135310] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.150719] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.215670] (-) TimerEvent: {}
+[2.316436] (-) TimerEvent: {}
+[2.417221] (-) TimerEvent: {}
+[2.518065] (-) TimerEvent: {}
+[2.532226] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.560468] (octopus_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.561674] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.563297] (octopus_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.608075] (octopus_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.618217] (-) TimerEvent: {}
+[2.718975] (-) TimerEvent: {}
+[2.819960] (-) TimerEvent: {}
+[2.921141] (-) TimerEvent: {}
+[3.022022] (-) TimerEvent: {}
+[3.123261] (-) TimerEvent: {}
+[3.224053] (-) TimerEvent: {}
+[3.324784] (-) TimerEvent: {}
+[3.389065] (octopus_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.425101] (-) TimerEvent: {}
+[3.526029] (-) TimerEvent: {}
+[3.626895] (-) TimerEvent: {}
+[3.727613] (-) TimerEvent: {}
+[3.828360] (-) TimerEvent: {}
+[3.929122] (-) TimerEvent: {}
+[4.029598] (octopus_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.030202] (-) TimerEvent: {}
+[4.061662] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.130441] (-) TimerEvent: {}
+[4.134894] (octopus_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.230595] (-) TimerEvent: {}
+[4.331390] (-) TimerEvent: {}
+[4.432142] (-) TimerEvent: {}
+[4.525973] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.532355] (-) TimerEvent: {}
+[4.633064] (-) TimerEvent: {}
+[4.733814] (-) TimerEvent: {}
+[4.809241] (octopus_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.834012] (-) TimerEvent: {}
+[4.934948] (-) TimerEvent: {}
+[5.035695] (-) TimerEvent: {}
+[5.136433] (-) TimerEvent: {}
+[5.237137] (-) TimerEvent: {}
+[5.337800] (-) TimerEvent: {}
+[5.438429] (-) TimerEvent: {}
+[5.539080] (-) TimerEvent: {}
+[5.639850] (-) TimerEvent: {}
+[5.740730] (-) TimerEvent: {}
+[5.841991] (-) TimerEvent: {}
+[5.942806] (-) TimerEvent: {}
+[6.006603] (octopus_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[6.007340] (octopus_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[6.007993] (octopus_interfaces) StderrLine: {'line': b'  octopus_interfaces --arguments-file\n'}
+[6.008401] (octopus_interfaces) StderrLine: {'line': b'  /home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces/rosidl_adapter__arguments__octopus_interfaces.json\n'}
+[6.008771] (octopus_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[6.009187] (octopus_interfaces) StderrLine: {'line': b'  /home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces/rosidl_adapter/octopus_interfaces\n'}
+[6.009598] (octopus_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[6.009936] (octopus_interfaces) StderrLine: {'line': b'  /home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces/rosidl_adapter/octopus_interfaces.idls)\n'}
+[6.010264] (octopus_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[6.010650] (octopus_interfaces) StderrLine: {'line': b'\n'}
+[6.011056] (octopus_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[6.011505] (octopus_interfaces) StderrLine: {'line': b'\n'}
+[6.012015] (octopus_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[6.012494] (octopus_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[6.012914] (octopus_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[6.013456] (octopus_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[6.013948] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[6.014423] (octopus_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[6.014907] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[6.015423] (octopus_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[6.016047] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[6.016786] (octopus_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[6.017403] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[6.018042] (octopus_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[6.018775] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[6.019537] (octopus_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[6.020167] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[6.020822] (octopus_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[6.021512] (octopus_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[6.022309] (octopus_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[6.022964] (octopus_interfaces) StderrLine: {'line': b'\n'}
+[6.023480] (octopus_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'sensorIndex' is an invalid\n"}
+[6.023954] (octopus_interfaces) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[6.024791] (octopus_interfaces) StderrLine: {'line': b'\n'}
+[6.025530] (octopus_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.026206] (octopus_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[6.026896] (octopus_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.027678] (octopus_interfaces) StderrLine: {'line': b'\n'}
+[6.029275] (octopus_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.030282] (octopus_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.031987] (octopus_interfaces) StdoutLine: {'line': b'See also "/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[6.032560] (octopus_interfaces) CommandEnded: {'returncode': 1}
+[6.042943] (-) TimerEvent: {}
+[6.118067] (octopus_interfaces) JobEnded: {'identifier': 'octopus_interfaces', 'rc': 1}
+[6.130036] (-) EventReactorShutdown: {}

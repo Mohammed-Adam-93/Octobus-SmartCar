@@ -1,0 +1,29 @@
+[2.746s] Invoking command in '/home/mohammed/SmartCar/ros2_ws/src/SmartCar_pkg': PYTHONPATH=/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SmartCar_pkg build --build-base /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build install --record /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log --single-version-externally-managed install_data
+[3.870s] running egg_info
+[3.873s] writing ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/PKG-INFO
+[3.874s] writing dependency_links to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/dependency_links.txt
+[3.875s] writing entry points to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/entry_points.txt
+[3.876s] writing requirements to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/requires.txt
+[3.877s] writing top-level names to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/top_level.txt
+[3.885s] reading manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'
+[3.889s] writing manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'
+[3.890s] running build
+[3.890s] running build_py
+[3.891s] copying SmartCar_pkg/1_sensor_processing.py -> /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build/lib/SmartCar_pkg
+[3.894s] running install
+[3.895s] running install_lib
+[3.900s] copying /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build/lib/SmartCar_pkg/1_sensor_processing.py -> /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg
+[3.904s] byte-compiling /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg/1_sensor_processing.py to 1_sensor_processing.cpython-310.pyc
+[3.907s] running install_data
+[3.908s] running install_egg_info
+[3.914s] removing '/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.916s] Copying ../../build/SmartCar_pkg/SmartCar_pkg.egg-info to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info
+[3.922s] running install_scripts
+[4.004s] Installing GPS_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.005s] Installing LIDAR_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.005s] Installing MPU_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.006s] Installing Pi_Ard_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.007s] Installing Pi_Ard_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.008s] Installing sensor_processing_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[4.010s] writing list of installed files to '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log'
+[4.133s] Invoked command in '/home/mohammed/SmartCar/ros2_ws/src/SmartCar_pkg' returned '0': PYTHONPATH=/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SmartCar_pkg build --build-base /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build install --record /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log --single-version-externally-managed install_data

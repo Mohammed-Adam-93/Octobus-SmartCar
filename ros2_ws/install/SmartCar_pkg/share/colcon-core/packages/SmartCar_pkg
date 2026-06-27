@@ -1,1 +1,1 @@
-rclpy:sensor_msgs:std_msgs
+octopus_interfaces:rclpy:sensor_msgs:std_msgs

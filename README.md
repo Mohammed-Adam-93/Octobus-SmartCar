@@ -2,8 +2,13 @@
 ![Octobus-SmartCar](documents/Images/SmartCar.jpeg)
 # System Architecture
 ![System Overview](documents/Images/SystemArch.png)
-# Hardware Layout
-![Hardware Overview](documents/Images/HW_LayOut.png)
+# Software Architecture
+## Rasberry Pi-Compuattion
+![Software Overview](documents/Images/SoftwareArchitecture.png)
+## ARDUINO-Real time control
+![Software Overview](documents/Images/ARDUINO_Subsystem.png)
+# Software Interfaces
+![Software Overview](documents/Images/System_Interfaces.png)
 # System Schematic
 ![Power Supply and Coonections](documents/Images/SmartCarSchematic.png)
 
@@ -24,8 +29,14 @@
 https://github.com/user-attachments/assets/68cd0f3c-e413-4d2a-aa93-f190e3fb76ad
 
 
+# Reaction to Obstacle Demo
+
+
 # Wiring Diagram
 ![ Wiring Diagram ](documents/Images/WiringDiagram.png)
+
+# Hardware Layout
+![Hardware Overview](documents/Images/HW_LayOut.png)
 
 # BOM
 | NO. |  Component	      |  Model             | QTY | Unit Cost(€) |Total(€)|

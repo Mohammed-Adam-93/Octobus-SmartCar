@@ -1,0 +1,30 @@
+[4.901s] Invoking command in '/home/mohammed/SmartCar/ros2_ws/src/SmartCar_pkg': CMAKE_PREFIX_PATH=/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver PYTHONPATH=/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SmartCar_pkg build --build-base /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build install --record /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log --single-version-externally-managed install_data
+[6.917s] running egg_info
+[6.919s] writing ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/PKG-INFO
+[6.920s] writing dependency_links to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/dependency_links.txt
+[6.925s] writing entry points to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/entry_points.txt
+[6.926s] writing requirements to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/requires.txt
+[6.927s] writing top-level names to ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/top_level.txt
+[6.938s] reading manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'
+[6.942s] writing manifest file '../../build/SmartCar_pkg/SmartCar_pkg.egg-info/SOURCES.txt'
+[6.943s] running build
+[6.954s] running build_py
+[6.955s] running install
+[6.955s] running install_lib
+[6.968s] running install_data
+[6.971s] running install_egg_info
+[6.978s] removing '/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.981s] Copying ../../build/SmartCar_pkg/SmartCar_pkg.egg-info to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages/SmartCar_pkg-0.0.0-py3.10.egg-info
+[6.988s] running install_scripts
+[7.107s] Installing GPS_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.110s] Installing LIDAR_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.111s] Installing MPU_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.111s] Installing Pi_Ard_pub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.121s] Installing Pi_Ard_sub_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.122s] Installing behavior_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.126s] Installing evaluator_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.127s] Installing executor_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.128s] Installing sensor_processing_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.141s] Installing supervisor_node script to /home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/SmartCar_pkg
+[7.142s] writing list of installed files to '/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log'
+[7.325s] Invoked command in '/home/mohammed/SmartCar/ros2_ws/src/SmartCar_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver PYTHONPATH=/home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SmartCar_pkg build --build-base /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/build install --record /home/mohammed/SmartCar/ros2_ws/build/SmartCar_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,590 @@
+[0.000000] (-) TimerEvent: {}
+[0.001363] (-) JobUnselected: {'identifier': 'SmartCar_pkg'}
+[0.001593] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001882] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.002054] (octopus_interfaces) JobQueued: {'identifier': 'octopus_interfaces', 'dependencies': OrderedDict()}
+[0.002159] (octopus_interfaces) JobStarted: {'identifier': 'octopus_interfaces'}
+[0.044412] (octopus_interfaces) JobProgress: {'identifier': 'octopus_interfaces', 'progress': 'cmake'}
+[0.047814] (octopus_interfaces) JobProgress: {'identifier': 'octopus_interfaces', 'progress': 'build'}
+[0.050870] (octopus_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('SSH_CLIENT', '192.168.0.100 54296 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/SmartCar/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-faf1f8d3-31f7-44d7-ad6c-fb19640072c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk/bin:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-e4cccfd87aee5dae.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/mohammed/.vscode-server/data/User/workspaceStorage/ad949453b97aa790f6847f4ab41c48ee/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-997a4b74d1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 54296 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg:/opt/ros/humble')]), 'shell': False}
+[0.097322] (-) TimerEvent: {}
+[0.166296] (octopus_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197506] (-) TimerEvent: {}
+[0.298258] (-) TimerEvent: {}
+[0.399013] (-) TimerEvent: {}
+[0.499730] (-) TimerEvent: {}
+[0.600499] (-) TimerEvent: {}
+[0.701354] (-) TimerEvent: {}
+[0.780040] (octopus_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.787455] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.799184] (octopus_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.801488] (-) TimerEvent: {}
+[0.902128] (-) TimerEvent: {}
+[0.982888] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002290] (-) TimerEvent: {}
+[1.089587] (octopus_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.102490] (-) TimerEvent: {}
+[1.203260] (-) TimerEvent: {}
+[1.303963] (-) TimerEvent: {}
+[1.404666] (-) TimerEvent: {}
+[1.505406] (-) TimerEvent: {}
+[1.606184] (-) TimerEvent: {}
+[1.706937] (-) TimerEvent: {}
+[1.807690] (-) TimerEvent: {}
+[1.908395] (-) TimerEvent: {}
+[2.009351] (-) TimerEvent: {}
+[2.110146] (-) TimerEvent: {}
+[2.210888] (-) TimerEvent: {}
+[2.311755] (-) TimerEvent: {}
+[2.314733] (octopus_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.411905] (-) TimerEvent: {}
+[2.512604] (-) TimerEvent: {}
+[2.613628] (-) TimerEvent: {}
+[2.714521] (-) TimerEvent: {}
+[2.815357] (-) TimerEvent: {}
+[2.916263] (-) TimerEvent: {}
+[3.017084] (-) TimerEvent: {}
+[3.117857] (-) TimerEvent: {}
+[3.218328] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.219014] (-) TimerEvent: {}
+[3.319788] (-) TimerEvent: {}
+[3.420709] (-) TimerEvent: {}
+[3.521548] (-) TimerEvent: {}
+[3.622318] (-) TimerEvent: {}
+[3.723083] (-) TimerEvent: {}
+[3.823943] (-) TimerEvent: {}
+[3.924681] (-) TimerEvent: {}
+[4.025641] (-) TimerEvent: {}
+[4.126467] (-) TimerEvent: {}
+[4.227496] (-) TimerEvent: {}
+[4.329515] (-) TimerEvent: {}
+[4.400343] (octopus_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.429708] (-) TimerEvent: {}
+[4.516866] (octopus_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.529992] (-) TimerEvent: {}
+[4.628710] (octopus_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.629502] (octopus_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.629951] (-) TimerEvent: {}
+[4.630422] (octopus_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.697960] (octopus_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.709468] (octopus_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.730145] (-) TimerEvent: {}
+[4.730769] (octopus_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.830321] (-) TimerEvent: {}
+[4.931102] (-) TimerEvent: {}
+[4.933392] (octopus_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.014070] (octopus_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces\n'}
+[5.031740] (-) TimerEvent: {}
+[5.134403] (-) TimerEvent: {}
+[5.154949] (octopus_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.221550] (octopus_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.234963] (-) TimerEvent: {}
+[5.285961] (octopus_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_octopus_interfaces\n'}
+[5.340604] (-) TimerEvent: {}
+[5.445346] (-) TimerEvent: {}
+[5.552320] (-) TimerEvent: {}
+[5.653165] (-) TimerEvent: {}
+[5.754132] (-) TimerEvent: {}
+[5.855401] (-) TimerEvent: {}
+[5.956437] (-) TimerEvent: {}
+[6.058335] (-) TimerEvent: {}
+[6.159358] (-) TimerEvent: {}
+[6.260379] (-) TimerEvent: {}
+[6.362123] (-) TimerEvent: {}
+[6.463982] (-) TimerEvent: {}
+[6.564943] (-) TimerEvent: {}
+[6.665973] (-) TimerEvent: {}
+[6.767186] (-) TimerEvent: {}
+[6.873962] (-) TimerEvent: {}
+[6.977031] (-) TimerEvent: {}
+[7.080977] (-) TimerEvent: {}
+[7.088227] (octopus_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.093592] (octopus_interfaces) StdoutLine: {'line': b'writing octopus_interfaces.egg-info/PKG-INFO\n'}
+[7.094863] (octopus_interfaces) StdoutLine: {'line': b'writing dependency_links to octopus_interfaces.egg-info/dependency_links.txt\n'}
+[7.103288] (octopus_interfaces) StdoutLine: {'line': b'writing top-level names to octopus_interfaces.egg-info/top_level.txt\n'}
+[7.112558] (octopus_interfaces) StdoutLine: {'line': b"reading manifest file 'octopus_interfaces.egg-info/SOURCES.txt'\n"}
+[7.121395] (octopus_interfaces) StdoutLine: {'line': b"writing manifest file 'octopus_interfaces.egg-info/SOURCES.txt'\n"}
+[7.183134] (-) TimerEvent: {}
+[7.284512] (-) TimerEvent: {}
+[7.348442] (octopus_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_octopus_interfaces_egg\n'}
+[7.389224] (-) TimerEvent: {}
+[7.490100] (-) TimerEvent: {}
+[7.567971] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_generator_c\x1b[0m\n'}
+[7.591324] (-) TimerEvent: {}
+[7.675848] (octopus_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/octopus_interfaces/msg/detail/sensor_index__functions.c.o\x1b[0m\n'}
+[7.691586] (-) TimerEvent: {}
+[7.706168] (octopus_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/octopus_interfaces/msg/detail/move_intent__functions.c.o\x1b[0m\n'}
+[7.729827] (octopus_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/octopus_interfaces/msg/detail/object_distance__functions.c.o\x1b[0m\n'}
+[7.733497] (octopus_interfaces) StdoutLine: {'line': b'[ 10%] Built target octopus_interfaces__cpp\n'}
+[7.791811] (-) TimerEvent: {}
+[7.849359] (octopus_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.897016] (-) TimerEvent: {}
+[7.997870] (-) TimerEvent: {}
+[8.070219] (octopus_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.098118] (-) TimerEvent: {}
+[8.185967] (octopus_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.198401] (-) TimerEvent: {}
+[8.285490] (octopus_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library liboctopus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.298648] (-) TimerEvent: {}
+[8.400687] (-) TimerEvent: {}
+[8.502161] (-) TimerEvent: {}
+[8.603480] (-) TimerEvent: {}
+[8.705523] (-) TimerEvent: {}
+[8.710131] (octopus_interfaces) StdoutLine: {'line': b'[ 19%] Built target octopus_interfaces__rosidl_generator_c\n'}
+[8.797426] (octopus_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.805762] (-) TimerEvent: {}
+[8.912717] (-) TimerEvent: {}
+[9.018591] (-) TimerEvent: {}
+[9.119387] (-) TimerEvent: {}
+[9.220834] (-) TimerEvent: {}
+[9.322122] (-) TimerEvent: {}
+[9.423445] (-) TimerEvent: {}
+[9.524636] (-) TimerEvent: {}
+[9.625491] (-) TimerEvent: {}
+[9.728860] (-) TimerEvent: {}
+[9.829666] (-) TimerEvent: {}
+[9.930468] (-) TimerEvent: {}
+[10.031280] (-) TimerEvent: {}
+[10.132138] (-) TimerEvent: {}
+[10.233077] (-) TimerEvent: {}
+[10.334473] (-) TimerEvent: {}
+[10.436658] (-) TimerEvent: {}
+[10.538845] (-) TimerEvent: {}
+[10.594770] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.639090] (-) TimerEvent: {}
+[10.745053] (-) TimerEvent: {}
+[10.784460] (octopus_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octopus_interfaces/msg/sensor_index__type_support.cpp.o\x1b[0m\n'}
+[10.853360] (-) TimerEvent: {}
+[10.957418] (-) TimerEvent: {}
+[11.055452] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.057434] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.058083] (-) TimerEvent: {}
+[11.159493] (-) TimerEvent: {}
+[11.201390] (octopus_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/sensor_index__type_support.cpp.o\x1b[0m\n'}
+[11.232679] (octopus_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/sensor_index__type_support.cpp.o\x1b[0m\n'}
+[11.259777] (-) TimerEvent: {}
+[11.360906] (-) TimerEvent: {}
+[11.463357] (-) TimerEvent: {}
+[11.565486] (-) TimerEvent: {}
+[11.591611] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.665776] (-) TimerEvent: {}
+[11.685340] (octopus_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/sensor_index__type_support_c.cpp.o\x1b[0m\n'}
+[11.766095] (-) TimerEvent: {}
+[11.883687] (-) TimerEvent: {}
+[11.985534] (-) TimerEvent: {}
+[12.089138] (-) TimerEvent: {}
+[12.191077] (-) TimerEvent: {}
+[12.294830] (-) TimerEvent: {}
+[12.405178] (-) TimerEvent: {}
+[12.508983] (-) TimerEvent: {}
+[12.611540] (-) TimerEvent: {}
+[12.717031] (-) TimerEvent: {}
+[12.820749] (-) TimerEvent: {}
+[12.922134] (-) TimerEvent: {}
+[13.029242] (-) TimerEvent: {}
+[13.130729] (-) TimerEvent: {}
+[13.233139] (-) TimerEvent: {}
+[13.337023] (-) TimerEvent: {}
+[13.438869] (-) TimerEvent: {}
+[13.545053] (-) TimerEvent: {}
+[13.648085] (-) TimerEvent: {}
+[13.752378] (-) TimerEvent: {}
+[13.854843] (-) TimerEvent: {}
+[13.957656] (-) TimerEvent: {}
+[14.065005] (-) TimerEvent: {}
+[14.166193] (-) TimerEvent: {}
+[14.225299] (octopus_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octopus_interfaces/msg/object_distance__type_support.cpp.o\x1b[0m\n'}
+[14.269941] (-) TimerEvent: {}
+[14.349059] (octopus_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/object_distance__type_support.cpp.o\x1b[0m\n'}
+[14.377585] (-) TimerEvent: {}
+[14.478515] (-) TimerEvent: {}
+[14.579340] (-) TimerEvent: {}
+[14.680270] (-) TimerEvent: {}
+[14.782053] (-) TimerEvent: {}
+[14.883564] (-) TimerEvent: {}
+[14.986861] (-) TimerEvent: {}
+[15.088985] (-) TimerEvent: {}
+[15.191869] (-) TimerEvent: {}
+[15.295726] (-) TimerEvent: {}
+[15.401032] (-) TimerEvent: {}
+[15.504071] (-) TimerEvent: {}
+[15.605011] (-) TimerEvent: {}
+[15.708224] (-) TimerEvent: {}
+[15.810534] (-) TimerEvent: {}
+[15.917480] (-) TimerEvent: {}
+[16.018677] (-) TimerEvent: {}
+[16.120315] (-) TimerEvent: {}
+[16.145329] (octopus_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/object_distance__type_support.cpp.o\x1b[0m\n'}
+[16.220571] (-) TimerEvent: {}
+[16.304627] (octopus_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/object_distance__type_support_c.cpp.o\x1b[0m\n'}
+[16.321092] (-) TimerEvent: {}
+[16.422150] (-) TimerEvent: {}
+[16.524311] (-) TimerEvent: {}
+[16.626833] (-) TimerEvent: {}
+[16.729676] (-) TimerEvent: {}
+[16.833058] (-) TimerEvent: {}
+[16.935233] (-) TimerEvent: {}
+[17.040996] (-) TimerEvent: {}
+[17.142724] (-) TimerEvent: {}
+[17.243864] (-) TimerEvent: {}
+[17.345900] (-) TimerEvent: {}
+[17.452908] (-) TimerEvent: {}
+[17.466036] (octopus_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/octopus_interfaces/msg/move_intent__type_support.cpp.o\x1b[0m\n'}
+[17.553089] (-) TimerEvent: {}
+[17.654114] (-) TimerEvent: {}
+[17.755196] (-) TimerEvent: {}
+[17.865320] (-) TimerEvent: {}
+[17.969012] (-) TimerEvent: {}
+[17.971537] (octopus_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/octopus_interfaces/msg/detail/move_intent__type_support.cpp.o\x1b[0m\n'}
+[18.069195] (-) TimerEvent: {}
+[18.172038] (-) TimerEvent: {}
+[18.276970] (-) TimerEvent: {}
+[18.385148] (-) TimerEvent: {}
+[18.486272] (-) TimerEvent: {}
+[18.590873] (-) TimerEvent: {}
+[18.695695] (-) TimerEvent: {}
+[18.797017] (-) TimerEvent: {}
+[18.898500] (-) TimerEvent: {}
+[18.999902] (-) TimerEvent: {}
+[19.105021] (-) TimerEvent: {}
+[19.206254] (-) TimerEvent: {}
+[19.313017] (-) TimerEvent: {}
+[19.415096] (-) TimerEvent: {}
+[19.517865] (-) TimerEvent: {}
+[19.620470] (-) TimerEvent: {}
+[19.726657] (-) TimerEvent: {}
+[19.828399] (-) TimerEvent: {}
+[19.933047] (-) TimerEvent: {}
+[20.008066] (octopus_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/move_intent__type_support_c.cpp.o\x1b[0m\n'}
+[20.033266] (-) TimerEvent: {}
+[20.137716] (-) TimerEvent: {}
+[20.247352] (-) TimerEvent: {}
+[20.349404] (-) TimerEvent: {}
+[20.451885] (-) TimerEvent: {}
+[20.554477] (-) TimerEvent: {}
+[20.657486] (-) TimerEvent: {}
+[20.760943] (-) TimerEvent: {}
+[20.862419] (-) TimerEvent: {}
+[20.966344] (-) TimerEvent: {}
+[20.999807] (octopus_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library liboctopus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.066637] (-) TimerEvent: {}
+[21.167945] (-) TimerEvent: {}
+[21.273306] (-) TimerEvent: {}
+[21.345300] (octopus_interfaces) StdoutLine: {'line': b'[ 46%] Built target octopus_interfaces__rosidl_typesupport_cpp\n'}
+[21.384608] (-) TimerEvent: {}
+[21.416365] (octopus_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.484885] (-) TimerEvent: {}
+[21.586316] (-) TimerEvent: {}
+[21.635398] (octopus_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library liboctopus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.648828] (octopus_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/move_intent__type_support.cpp.o\x1b[0m\n'}
+[21.686606] (-) TimerEvent: {}
+[21.788970] (-) TimerEvent: {}
+[21.901034] (-) TimerEvent: {}
+[22.006734] (-) TimerEvent: {}
+[22.110302] (-) TimerEvent: {}
+[22.212850] (-) TimerEvent: {}
+[22.315264] (-) TimerEvent: {}
+[22.417642] (-) TimerEvent: {}
+[22.461741] (octopus_interfaces) StdoutLine: {'line': b'[ 53%] Built target octopus_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[22.517890] (-) TimerEvent: {}
+[22.540825] (octopus_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.618248] (-) TimerEvent: {}
+[22.719346] (-) TimerEvent: {}
+[22.820437] (-) TimerEvent: {}
+[22.923537] (-) TimerEvent: {}
+[23.025250] (-) TimerEvent: {}
+[23.126812] (-) TimerEvent: {}
+[23.227905] (-) TimerEvent: {}
+[23.287895] (octopus_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liboctopus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.329498] (-) TimerEvent: {}
+[23.433510] (-) TimerEvent: {}
+[23.541118] (-) TimerEvent: {}
+[23.642895] (-) TimerEvent: {}
+[23.744848] (-) TimerEvent: {}
+[23.830572] (octopus_interfaces) StdoutLine: {'line': b'[ 57%] Built target octopus_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[23.845107] (-) TimerEvent: {}
+[23.948109] (-) TimerEvent: {}
+[24.043963] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[24.048310] (-) TimerEvent: {}
+[24.111151] (octopus_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octopus_interfaces/msg/detail/object_distance__type_support.c.o\x1b[0m\n'}
+[24.112674] (octopus_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octopus_interfaces/msg/detail/sensor_index__type_support.c.o\x1b[0m\n'}
+[24.148604] (-) TimerEvent: {}
+[24.250928] (-) TimerEvent: {}
+[24.353038] (-) TimerEvent: {}
+[24.379650] (octopus_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/octopus_interfaces/msg/detail/move_intent__type_support.c.o\x1b[0m\n'}
+[24.455700] (-) TimerEvent: {}
+[24.460291] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[24.534604] (octopus_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/octopus_interfaces/msg/object_distance__type_support.cpp.o\x1b[0m\n'}
+[24.540804] (octopus_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/octopus_interfaces/msg/sensor_index__type_support.cpp.o\x1b[0m\n'}
+[24.555939] (-) TimerEvent: {}
+[24.661630] (-) TimerEvent: {}
+[24.662662] (octopus_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library liboctopus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.761826] (-) TimerEvent: {}
+[24.800745] (octopus_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/octopus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/octopus_interfaces/msg/move_intent__type_support.cpp.o\x1b[0m\n'}
+[24.862044] (-) TimerEvent: {}
+[24.878215] (octopus_interfaces) StdoutLine: {'line': b'[ 72%] Built target octopus_interfaces__rosidl_typesupport_introspection_c\n'}
+[24.927043] (octopus_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liboctopus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.962321] (-) TimerEvent: {}
+[24.995139] (octopus_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library liboctopus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.062704] (-) TimerEvent: {}
+[25.164387] (-) TimerEvent: {}
+[25.211166] (octopus_interfaces) StdoutLine: {'line': b'[ 76%] Built target octopus_interfaces__rosidl_typesupport_c\n'}
+[25.264629] (-) TimerEvent: {}
+[25.273988] (octopus_interfaces) StdoutLine: {'line': b'[ 76%] Built target octopus_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[25.364873] (-) TimerEvent: {}
+[25.369205] (octopus_interfaces) StdoutLine: {'line': b'[ 76%] Built target octopus_interfaces\n'}
+[25.465054] (-) TimerEvent: {}
+[25.472278] (octopus_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.565223] (-) TimerEvent: {}
+[25.665918] (-) TimerEvent: {}
+[25.766590] (-) TimerEvent: {}
+[25.867304] (-) TimerEvent: {}
+[25.968000] (-) TimerEvent: {}
+[26.068699] (-) TimerEvent: {}
+[26.169474] (-) TimerEvent: {}
+[26.270142] (-) TimerEvent: {}
+[26.370824] (-) TimerEvent: {}
+[26.471530] (-) TimerEvent: {}
+[26.572211] (-) TimerEvent: {}
+[26.672923] (-) TimerEvent: {}
+[26.773600] (-) TimerEvent: {}
+[26.874359] (-) TimerEvent: {}
+[26.975071] (-) TimerEvent: {}
+[27.075731] (-) TimerEvent: {}
+[27.176577] (-) TimerEvent: {}
+[27.277804] (-) TimerEvent: {}
+[27.379863] (-) TimerEvent: {}
+[27.394190] (octopus_interfaces) StdoutLine: {'line': b'[ 78%] Built target octopus_interfaces__py\n'}
+[27.442984] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_generator_py\x1b[0m\n'}
+[27.480054] (-) TimerEvent: {}
+[27.519704] (octopus_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/octopus_interfaces/msg/_sensor_index_s.c.o\x1b[0m\n'}
+[27.522750] (octopus_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/octopus_interfaces/msg/_object_distance_s.c.o\x1b[0m\n'}
+[27.529544] (octopus_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/octopus_interfaces/msg/_move_intent_s.c.o\x1b[0m\n'}
+[27.580278] (-) TimerEvent: {}
+[27.683875] (-) TimerEvent: {}
+[27.785828] (-) TimerEvent: {}
+[27.907920] (-) TimerEvent: {}
+[28.008886] (-) TimerEvent: {}
+[28.115358] (-) TimerEvent: {}
+[28.216229] (-) TimerEvent: {}
+[28.234981] (octopus_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/octopus_interfaces/liboctopus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[28.316537] (-) TimerEvent: {}
+[28.418162] (-) TimerEvent: {}
+[28.448585] (octopus_interfaces) StdoutLine: {'line': b'[ 87%] Built target octopus_interfaces__rosidl_generator_py\n'}
+[28.507240] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[28.510552] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[28.518423] (-) TimerEvent: {}
+[28.543604] (octopus_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target octopus_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[28.607014] (octopus_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.618676] (-) TimerEvent: {}
+[28.622796] (octopus_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.630265] (octopus_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/octopus_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.718959] (-) TimerEvent: {}
+[28.820629] (-) TimerEvent: {}
+[28.921750] (-) TimerEvent: {}
+[29.024968] (-) TimerEvent: {}
+[29.126190] (-) TimerEvent: {}
+[29.229222] (-) TimerEvent: {}
+[29.275650] (octopus_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.329645] (-) TimerEvent: {}
+[29.425585] (octopus_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.433358] (-) TimerEvent: {}
+[29.434867] (octopus_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.536943] (-) TimerEvent: {}
+[29.640963] (-) TimerEvent: {}
+[29.705535] (octopus_interfaces) StdoutLine: {'line': b'[100%] Built target octopus_interfaces__rosidl_typesupport_c__pyext\n'}
+[29.743803] (-) TimerEvent: {}
+[29.745435] (octopus_interfaces) StdoutLine: {'line': b'[100%] Built target octopus_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.841269] (octopus_interfaces) StdoutLine: {'line': b'[100%] Built target octopus_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[29.844054] (-) TimerEvent: {}
+[29.917676] (octopus_interfaces) CommandEnded: {'returncode': 0}
+[29.920323] (octopus_interfaces) JobProgress: {'identifier': 'octopus_interfaces', 'progress': 'install'}
+[29.944674] (-) TimerEvent: {}
+[29.970835] (octopus_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces'], 'cwd': '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('SSH_CLIENT', '192.168.0.100 54296 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/SmartCar/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.115.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-faf1f8d3-31f7-44d7-ad6c-fb19640072c7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk/bin:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mohammed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mohammed/.vscode-server/cli/servers/Stable-41dd792b5e652393e7787322889ed5fdc58bd75b/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mohammed/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-e4cccfd87aee5dae.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/mohammed/.vscode-server/data/User/workspaceStorage/ad949453b97aa790f6847f4ab41c48ee/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-997a4b74d1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 54296 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg/lib/python3.10/site-packages:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mohammed/SmartCar/ros2_ws/install/ydlidar_sdk:/home/mohammed/SmartCar/ros2_ws/install/ydlidar_ros2_driver:/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces:/home/mohammed/SmartCar/ros2_ws/install/SmartCar_pkg:/opt/ros/humble')]), 'shell': False}
+[30.015871] (octopus_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.018837] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/ament_index/resource_index/rosidl_interfaces/octopus_interfaces\n'}
+[30.023585] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.026657] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.029660] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/object_distance.h\n'}
+[30.034106] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.035836] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/sensor_index.h\n'}
+[30.039698] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/move_intent.h\n'}
+[30.042689] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.044885] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__struct.h\n'}
+[30.045769] (-) TimerEvent: {}
+[30.048858] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__functions.h\n'}
+[30.052427] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__type_support.h\n'}
+[30.055464] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__functions.c\n'}
+[30.058398] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__functions.h\n'}
+[30.062223] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__functions.c\n'}
+[30.065835] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__struct.h\n'}
+[30.069162] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__functions.h\n'}
+[30.072587] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__functions.c\n'}
+[30.076261] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__type_support.h\n'}
+[30.080143] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__type_support.h\n'}
+[30.084289] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__struct.h\n'}
+[30.088126] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/library_path.sh\n'}
+[30.090536] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/library_path.dsv\n'}
+[30.095245] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_generator_c.so\n'}
+[30.100609] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_generator_c.so" to ""\n'}
+[30.103081] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.105153] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.107070] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.109746] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_fastrtps_c.h\n'}
+[30.113642] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[30.118215] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_fastrtps_c.h\n'}
+[30.121635] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.124933] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[30.130168] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.132048] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.133867] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.135826] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.138300] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_introspection_c.h\n'}
+[30.142046] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_introspection_c.h\n'}
+[30.145855] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__type_support.c\n'}
+[30.146782] (-) TimerEvent: {}
+[30.150580] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_introspection_c.h\n'}
+[30.154014] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__type_support.c\n'}
+[30.157761] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__type_support.c\n'}
+[30.161332] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.165021] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[30.170144] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.173725] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_c.so\n'}
+[30.179252] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[30.181784] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.184227] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.187424] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[30.190291] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/sensor_index.hpp\n'}
+[30.194556] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/move_intent.hpp\n'}
+[30.198639] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.201750] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__traits.hpp\n'}
+[30.205530] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__type_support.hpp\n'}
+[30.212150] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__struct.hpp\n'}
+[30.216353] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__builder.hpp\n'}
+[30.217656] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__builder.hpp\n'}
+[30.221055] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__struct.hpp\n'}
+[30.224448] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__type_support.hpp\n'}
+[30.229122] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__builder.hpp\n'}
+[30.229973] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__struct.hpp\n'}
+[30.230914] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__type_support.hpp\n'}
+[30.233020] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__traits.hpp\n'}
+[30.234606] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__traits.hpp\n'}
+[30.236640] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/object_distance.hpp\n'}
+[30.238629] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.240162] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.241124] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.245789] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.246976] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.247587] (-) TimerEvent: {}
+[30.248436] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.253811] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/dds_fastrtps\n'}
+[30.255017] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.258367] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.265292] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.267228] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces\n'}
+[30.269295] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg\n'}
+[30.270248] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail\n'}
+[30.277864] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.279116] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__type_support.cpp\n'}
+[30.280055] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.285666] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/sensor_index__type_support.cpp\n'}
+[30.286567] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.287596] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/include/octopus_interfaces/octopus_interfaces/msg/detail/move_intent__type_support.cpp\n'}
+[30.289445] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[30.294567] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.297543] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_cpp.so\n'}
+[30.301581] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[30.303117] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/pythonpath.sh\n'}
+[30.303789] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/pythonpath.dsv\n'}
+[30.304997] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces-0.0.0-py3.10.egg-info\n'}
+[30.306841] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[30.311165] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[30.313609] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[30.318186] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[30.321169] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces\n'}
+[30.322941] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg\n'}
+[30.324084] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_object_distance.py\n'}
+[30.325546] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_move_intent.py\n'}
+[30.333557] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_sensor_index_s.c\n'}
+[30.335191] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/__init__.py\n'}
+[30.336037] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_sensor_index.py\n'}
+[30.337754] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_move_intent_s.c\n'}
+[30.339323] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_object_distance_s.c\n'}
+[30.343402] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/liboctopus_interfaces__rosidl_generator_py.so\n'}
+[30.345372] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.348414] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.350213] (-) TimerEvent: {}
+[30.352118] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/__init__.py\n'}
+[30.361329] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.362252] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[30.362969] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/_octopus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.364341] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.450507] (-) TimerEvent: {}
+[30.551620] (-) TimerEvent: {}
+[30.652616] (-) TimerEvent: {}
+[30.688987] (octopus_interfaces) StdoutLine: {'line': b"Listing '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces'...\n"}
+[30.690769] (octopus_interfaces) StdoutLine: {'line': b"Compiling '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/__init__.py'...\n"}
+[30.692421] (octopus_interfaces) StdoutLine: {'line': b"Listing '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg'...\n"}
+[30.696072] (octopus_interfaces) StdoutLine: {'line': b"Compiling '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/__init__.py'...\n"}
+[30.698724] (octopus_interfaces) StdoutLine: {'line': b"Compiling '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_move_intent.py'...\n"}
+[30.701602] (octopus_interfaces) StdoutLine: {'line': b"Compiling '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_object_distance.py'...\n"}
+[30.703231] (octopus_interfaces) StdoutLine: {'line': b"Compiling '/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/msg/_sensor_index.py'...\n"}
+[30.739838] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.745031] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.746125] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.751470] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.752994] (-) TimerEvent: {}
+[30.756289] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.764870] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/local/lib/python3.10/dist-packages/octopus_interfaces/octopus_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.768585] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_generator_py.so\n'}
+[30.775598] (octopus_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/lib/liboctopus_interfaces__rosidl_generator_py.so" to ""\n'}
+[30.778027] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/SensorIndex.idl\n'}
+[30.781246] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/ObjectDistance.idl\n'}
+[30.783706] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/MoveIntent.idl\n'}
+[30.785781] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/SensorIndex.msg\n'}
+[30.787133] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/ObjectDistance.msg\n'}
+[30.787765] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/msg/MoveIntent.msg\n'}
+[30.788619] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/ament_index/resource_index/package_run_dependencies/octopus_interfaces\n'}
+[30.790532] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/ament_index/resource_index/parent_prefix_path/octopus_interfaces\n'}
+[30.791598] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/ament_prefix_path.sh\n'}
+[30.792217] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/ament_prefix_path.dsv\n'}
+[30.796725] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/path.sh\n'}
+[30.798248] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/environment/path.dsv\n'}
+[30.798965] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/local_setup.bash\n'}
+[30.802443] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/local_setup.sh\n'}
+[30.804032] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/local_setup.zsh\n'}
+[30.806313] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/local_setup.dsv\n'}
+[30.810980] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/package.dsv\n'}
+[30.813286] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/ament_index/resource_index/packages/octopus_interfaces\n'}
+[30.814584] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_generator_cExport.cmake\n'}
+[30.816679] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.817653] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.819984] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.822696] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.823510] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.825256] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[30.827412] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.831379] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_generator_cppExport.cmake\n'}
+[30.832657] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.833917] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.836710] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.840564] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.841933] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[30.843424] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.845368] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_generator_pyExport.cmake\n'}
+[30.846774] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/export_octopus_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.847920] (octopus_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[30.848820] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.850445] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.852040] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.853006] (-) TimerEvent: {}
+[30.853761] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.854827] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.855864] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.856701] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfacesConfig.cmake\n'}
+[30.865695] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/cmake/octopus_interfacesConfig-version.cmake\n'}
+[30.866536] (octopus_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces/share/octopus_interfaces/package.xml\n'}
+[30.870353] (octopus_interfaces) CommandEnded: {'returncode': 0}
+[30.953186] (-) TimerEvent: {}
+[31.030984] (octopus_interfaces) JobEnded: {'identifier': 'octopus_interfaces', 'rc': 0}
+[31.037195] (-) EventReactorShutdown: {}

@@ -8,6 +8,11 @@ setup.py
 ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/requires.txt
 ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/top_level.txt
 ../../build/SmartCar_pkg/SmartCar_pkg.egg-info/zip-safe
+SmartCar_pkg/1_sensor_processing.py
+SmartCar_pkg/2_behavior.py
+SmartCar_pkg/2_evaluator.py
+SmartCar_pkg/2_executor.py
+SmartCar_pkg/3_supervisor.py
 SmartCar_pkg/GPS_sub.py
 SmartCar_pkg/LIDAR_sub.py
 SmartCar_pkg/MPU_pub.py

@@ -29,6 +29,11 @@ setup(
             'GPS_sub_node    = SmartCar_pkg.GPS_sub:main',
             'MPU_pub_node    = SmartCar_pkg.MPU_pub:main',
             'LIDAR_sub_node  = SmartCar_pkg.LIDAR_sub:main',
+            'sensor_processing_node  = SmartCar_pkg.1_sensor_processing:main',
+            'evaluator_node  = SmartCar_pkg.2_evaluator:main',
+            'behavior_node  = SmartCar_pkg.2_behavior:main',
+            'supervisor_node  = SmartCar_pkg.3_supervisor:main',
+            'executor_node  = SmartCar_pkg.2_executor:main',
         ],
     },
 )

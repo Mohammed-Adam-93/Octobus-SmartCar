@@ -1,0 +1,2 @@
+Invoking command in '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces
+Invoked command in '/home/mohammed/SmartCar/ros2_ws/build/octopus_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohammed/SmartCar/ros2_ws/install/octopus_interfaces

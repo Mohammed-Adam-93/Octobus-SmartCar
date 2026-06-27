@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/move_intent__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/move_intent__type_support.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/object_distance__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/object_distance__type_support.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/sensor_index__type_support.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/sensor_index__type_support.cpp.o.d"
+  "liboctopus_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "liboctopus_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/move_intent__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/object_distance__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/dds_fastrtps/sensor_index__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

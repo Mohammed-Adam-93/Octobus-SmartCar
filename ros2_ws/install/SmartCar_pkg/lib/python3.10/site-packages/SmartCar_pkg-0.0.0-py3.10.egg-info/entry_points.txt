@@ -4,4 +4,9 @@ LIDAR_sub_node = SmartCar_pkg.LIDAR_sub:main
 MPU_pub_node = SmartCar_pkg.MPU_pub:main
 Pi_Ard_pub_node = SmartCar_pkg.Pi_Ard_pub:main
 Pi_Ard_sub_node = SmartCar_pkg.Pi_Ard_sub:main
+behavior_node = SmartCar_pkg.2_behavior:main
+evaluator_node = SmartCar_pkg.2_evaluator:main
+executor_node = SmartCar_pkg.2_executor:main
+sensor_processing_node = SmartCar_pkg.1_sensor_processing:main
+supervisor_node = SmartCar_pkg.3_supervisor:main
 

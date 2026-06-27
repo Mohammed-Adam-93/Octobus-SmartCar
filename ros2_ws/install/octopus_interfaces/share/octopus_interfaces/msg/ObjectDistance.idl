@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from octopus_interfaces/msg/ObjectDistance.msg
+// generated code does not contain a copyright notice
+
+
+module octopus_interfaces {
+  module msg {
+    struct ObjectDistance {
+      float left;
+
+      float middle;
+
+      float right;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+{
+  "package_name": "octopus_interfaces",
+  "non_idl_tuples": [
+    "/home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces:msg/SensorIndex.msg",
+    "/home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces:msg/ObjectDistance.msg",
+    "/home/mohammed/SmartCar/ros2_ws/src/octopus_interfaces:msg/MoveIntent.msg"
+  ]
+}

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/move_intent__type_support_c.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/move_intent__type_support_c.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/object_distance__type_support_c.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/object_distance__type_support_c.cpp.o.d"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/sensor_index__type_support_c.cpp.o"
+  "CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/sensor_index__type_support_c.cpp.o.d"
+  "liboctopus_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "liboctopus_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/move_intent__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/move_intent__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/object_distance__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/object_distance__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/sensor_index__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/octopus_interfaces/msg/detail/sensor_index__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/octopus_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

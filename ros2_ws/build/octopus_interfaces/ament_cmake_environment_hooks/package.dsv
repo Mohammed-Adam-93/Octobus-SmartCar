@@ -1,0 +1,4 @@
+source;share/octopus_interfaces/local_setup.bash
+source;share/octopus_interfaces/local_setup.dsv
+source;share/octopus_interfaces/local_setup.sh
+source;share/octopus_interfaces/local_setup.zsh
