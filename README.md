@@ -38,6 +38,9 @@ https://github.com/user-attachments/assets/506ec421-f726-40a9-ab64-923480537adb
 # Hardware Layout
 ![Hardware Overview](documents/Images/HW_LayOut.png)
 
+# Octobus from Inside
+![Hardware Overview](documents/Images/Octobus_Inside.jpeg)
+
 # BOM
 | NO. |  Component	      |  Model             | QTY | Unit Cost(€) |Total(€)|
 |-----|--------------     |-------             |---  |-----         |-----   |
@@ -57,3 +60,5 @@ https://github.com/user-attachments/assets/506ec421-f726-40a9-ab64-923480537adb
 # Installations
  - Ubuntu 22.04<br>  
  - ROS2 Humble<br>
+
+ 
